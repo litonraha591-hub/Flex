@@ -1,0 +1,29 @@
+.banner{
+    display:flex;
+    background-color: lightblue;
+    padding: 20px;
+    align-items: center;
+}
+.banner-content{
+    flex:1;
+    text-align: center;
+    align-items: center;
+
+}
+.banner-img-container{
+flex:1;
+}
+.banner-img-container img{
+    width:100%;
+    height: auto;
+}
+.banner-content button{
+    background-color: lightcoral;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.banner-content button:hover{
+background-color: blanchedalmond;
+
+}
